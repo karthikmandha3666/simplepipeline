@@ -12,6 +12,6 @@ public class DemoController {
 
     @RequestMapping("/something")
     public String some(){
-        return "helloworld";
+        return "something";
     }
 }

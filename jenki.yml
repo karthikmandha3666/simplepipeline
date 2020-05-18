@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes
-        image: "ramana96/jenkins-demo"
+        image: "ramana96/jenkins-dem"
         ports:
         - containerPort: 8081
         imagePullPolicy: Always

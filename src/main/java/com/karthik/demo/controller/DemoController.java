@@ -1,4 +1,4 @@
-package com.ramana.demo.controller;
+package com.karthik.demo.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +12,6 @@ public class DemoController {
 
     @RequestMapping("/something")
     public String some(){
-        return "something";
+        return "hi karthik ";
     }
 }
